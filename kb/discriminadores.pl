@@ -301,8 +301,6 @@ discriminador(hipoglicemia, pediatria,
     "Glicemia < 60 mg/dl em crianças.",
     "O paciente apresenta hipoglicemia (< 60 mg/dl)?").
 
-
-
 discriminador(paciente_nao_responsivo, pediatria,
     "Glasgow < 8: ausência de resposta à dor, agitação psicomotora ou sinais focais.",
     "O paciente encontra-se não responsivo (Glasgow < 8)?").
@@ -480,6 +478,10 @@ discriminador(nao_entretivel, pediatria,
     "Criança angustiada por dor ou outros fatores que são incapazes de se distrair com conversas ou brincadeiras.",
     "A criança encontra-se não entretível?").
 
+discriminador(nao_reage_aos_pais, pediatria,
+    "Não reage ao rosto ou à voz dos pais; pode apresentar resposta anormal e aparente perda de reconhecimento.",
+    "A criança não reage aos pais (rosto/voz) ou parece não reconhecê-los?").
+
 discriminador(nao_se_alimenta, pediatria,
     "Criança que não ingere nada sólido ou líquido (como deveria) ou que se alimenta, mas vomita logo após.",
     "A criança não se alimenta ou vomita tudo o que ingere?").
@@ -523,6 +525,246 @@ discriminador(lactente_dispneico_recusa_alimentar, pediatria,
 discriminador(trauma_direto_pescoco, pediatria,
     "Ocorreu trauma físico direto envolvendo o pescoço (carga de cima para baixo, queda na cabeça, torção).",
     "Há história de trauma direto no pescoço?").
+
+discriminador(disfagia_importante, pediatria,
+    "Dor à deglutição de alimentos ou da própria saliva; associada a sinais de desidratação moderada.",
+    "Apresenta disfagia importante (dor ao engolir com desidratação)?").
+
+discriminador(comprometimento_vascular_distal, pediatria,
+    "Palidez ou cianose, pele fria, alteração da sensibilidade e dor com ou sem ausência de pulso distal à lesão.",
+    "Apresenta comprometimento vascular distal?").
+
+discriminador(dor_panturrilhas_prejuizo_marcha, pediatria,
+    "Dor à deambulação ou ao ficar em pé.",
+    "Apresenta dor nas panturrilhas com prejuízo na marcha?").
+
+discriminador(artralgia_com_limitacao_sinais_flogisticos, pediatria,
+    "Dor nas articulações associadas a edema, rubor e calor local.",
+    "Apresenta artralgia com limitação e sinais flogísticos?").
+
+discriminador(artralgia_sem_sinais_flogisticos, pediatria,
+    "Dor nas articulações sem edema, rubor ou calor.",
+    "Apresenta artralgia sem sinais flogísticos?").
+
+discriminador(dor_superficial_cronica_compressao, pediatria,
+    "Dor muscular sob pressão.",
+    "Apresenta dor superficial crônica à compressão?").
+
+discriminador(mecanismo_trauma_significativo, pediatria,
+    "Trauma penetrante ou com alta transferência de energia (velocidade > 60 km/h, ejeção, queda de altura).",
+    "Há mecanismo de trauma significativo?").
+
+discriminador(dor_abdominal, pediatria,
+    "Qualquer dor sentida no abdome.",
+    "Apresenta dor abdominal?").
+
+discriminador(incapaz_de_andar, pediatria,
+    "Paciente incapaz de andar pela dor.",
+    "Está incapaz de andar devido à dor?").
+
+discriminador(trauma_direto_dorso, pediatria,
+    "Trauma no dorso (carga de cima para baixo, cair de pé, inclinar ou por torção).",
+    "Há relato de trauma direto no dorso?").
+
+discriminador(dificuldade_de_andar, pediatria,
+    "Dificuldade de andar pela dor.",
+    "Apresenta dificuldade de andar devido à dor?").
+
+discriminador(colicas, pediatria,
+    "Dores intermitentes em região pélvica.",
+    "Apresenta cólicas (dores intermitentes na região pélvica)?").
+
+discriminador(prostacao_palidez_sudorese, pediatria,
+    "Grande debilidade proveniente de doença; perda da coloração da pele; transpiração excessiva.",
+    "Apresenta prostração, palidez cutânea ou sudorese?").
+
+discriminador(gangrena_escroto, pediatria,
+    "Pele necrosada enegrecida em torno do escroto e virilha.",
+    "Apresenta gangrena de escroto?").
+
+discriminador(priapismo, pediatria,
+    "Ereção peniana dolorosa, independente de desejo sexual, por mais de duas horas, sem ejacular.",
+    "Apresenta priapismo (ereção dolorosa > 2 horas)?").
+
+discriminador(retencao_urinaria_aguda_bexigoma, pediatria,
+    "Dificuldade de urinar, fluxo fraco, incapacidade de esvaziar a bexiga, aumento da pressão abdominal.",
+    "Apresenta retenção urinária aguda com bexigoma?").
+
+discriminador(disuria_intensa_polaciuria_hematuria, pediatria,
+    "Dor/ardência ao urinar com vontade frequente mas em pequenas quantidades, podendo ter urina avermelhada.",
+    "Apresenta disúria intensa com polaciúria e/ou hematúria?").
+
+discriminador(trauma_de_escroto, pediatria,
+    "Qualquer trauma recente envolvendo a bolsa escrotal.",
+    "Há história de trauma de escroto?").
+
+discriminador(cianose_pequenos_esforcos, pediatria,
+    "Língua, mucosas orais e pele azuladas ou roxas ao comer, falar ou andar.",
+    "Apresenta cianose aos pequenos esforços?").
+
+discriminador(trauma_subito, pediatria,
+    "Qualquer trauma que surgiu em até 12 horas.",
+    "Há trauma súbito (até 12 horas)?").
+
+discriminador(trauma_agudo, pediatria,
+    "Qualquer trauma que surgiu entre 12 e 24 horas.",
+    "Há trauma agudo (12 a 24 horas)?").
+
+discriminador(sensacao_aperto_toracico_ansiedade, pediatria,
+    "Aperto torácico associado a estresse agudo, podendo ter sudorese fria, taquipneia ou tontura.",
+    "Apresenta sensação de aperto torácico e ansiedade?").
+
+discriminador(tosse_frequente, pediatria,
+    "Tosse que ocorre após processos virais, sem afetar atividades diárias e sem febre.",
+    "Apresenta tosse frequente (pós-viral, sem febre)?").
+
+discriminador(piora_ao_movimento, pediatria,
+    "Dor muscular que piora com o movimento.",
+    "A dor piora ao movimento?").
+
+discriminador(dor_referida_melhora_repouso, pediatria,
+    "Dor relatada há mais de 7 dias e/ou que melhora ao repouso.",
+    "Apresenta dor referida ou que melhora com repouso (> 7 dias)?").
+
+discriminador(estridor_laringeo_dificuldade_falar_mamar, pediatria,
+    "Ruído inspiratório; respiração prejudicada pela fala ou durante a sucção ao mamar.",
+    "Apresenta estridor laríngeo e dificuldade de falar ou mamar?").
+
+discriminador(edema_labial_lingua_garganta_fechando, pediatria,
+    "Início súbito associado a ingestão de alimentos/medicamentos com histórico de alergia, ou exposição a inalantes.",
+    "Apresenta edema labial e/ou de língua com sensação de garganta fechando?").
+
+discriminador(dispneia_moderada_intensa, pediatria,
+    "BAN; tiragens subcostais; gemência; histórico de asma quase fatal ou internações por crise grave com intubação.",
+    "Apresenta dispneia moderada ou intensa?").
+
+discriminador(salivacao_excessiva, pediatria,
+    "Salivação excessiva associada a desconforto respiratório.",
+    "Apresenta salivação excessiva?").
+
+discriminador(dispneia_leve, pediatria,
+    "Dificuldade em respirar com sensação de respiração incompleta, opressão torácica e mal estar.",
+    "Apresenta dispneia leve?").
+
+discriminador(tosse_frequente_emetizante, pediatria,
+    "Acessos de tosse seca espasmódica que culmina em vômito; sem estridor e sem dificuldade respiratória.",
+    "Apresenta tosse frequente emetizante?").
+
+discriminador(dor_muscular, pediatria,
+    "Sintomas respiratórios leves com relato ou sinais de dor muscular.",
+    "Apresenta dor muscular?").
+
+discriminador(hemorragia_grave, pediatria,
+    "Perda de grande volume sanguíneo com sinais de choque.",
+    "Apresenta hemorragia grave (com sinais de choque)?").
+
+discriminador(hematese, pediatria,
+    "Vômito de sangue vivo ou de sangue alterado (borra de café).",
+    "Apresenta hematese (vômito de sangue)?").
+
+discriminador(hematoquezia, pediatria,
+    "Presença de sangue avermelhado a marrom nas fezes (hemorragia próxima ao reto).",
+    "Apresenta hematoquezia (sangue vivo nas fezes)?").
+
+discriminador(melena, pediatria,
+    "Sangramento escuro nas fezes, sugere fonte em trato gastrointestinal superior.",
+    "Apresenta melena (fezes escuras com sangue)?").
+
+discriminador(melena_ou_groselha, pediatria,
+    "Melena (fezes escuras) ou fezes em groselha (vermelho escuro), comum em intussuscepção.",
+    "Apresenta melena ou fezes em groselha?").
+
+discriminador(historico_hemorragia_digestiva, pediatria,
+    "Qualquer passado de sangramento digestivo maciço ou associado a varizes esofagianas.",
+    "Há histórico de hemorragia digestiva importante?").
+
+discriminador(historico_agudo_vomito_sangue, pediatria,
+    "Presença de vômito com sangue nas últimas 24 horas.",
+    "Há histórico agudo de vômito com sangue (últimas 24h)?").
+
+discriminador(disturbio_coagulacao, pediatria,
+    "Distúrbio de coagulação congênito ou adquirido por doença hematológica ou terapêutica.",
+    "Há distúrbio de coagulação?").
+
+discriminador(cefaleia_intensa, pediatria,
+    "Dor intensa ao redor da cabeça, não relacionada a nenhuma estrutura anatômica especial.",
+    "Apresenta cefaleia intensa?").
+
+discriminador(sinais_de_desidratacao, pediatria,
+    "Língua seca, olhos fundos, turgor pastoso e, em bebês, fontanela baixa. Geralmente com redução da diurese.",
+    "Apresenta sinais de desidratação?").
+
+discriminador(cefaleia_moderada, pediatria,
+    "Dor moderada ao redor da cabeça, não relacionada a nenhuma estrutura anatômica especial.",
+    "Apresenta cefaleia moderada?").
+
+discriminador(enfisema_subcutaneo, pediatria,
+    "Ar debaixo da pele, detectado por sensação de crepitação ao toque.",
+    "Apresenta enfisema subcutâneo (crepitação sob a pele)?").
+
+discriminador(lesao_ocular_quimica, pediatria,
+    "Substância que atingiu os olhos nas últimas 24 horas causando dor, queimação ou redução da visão.",
+    "Há lesão ocular química (substância nos olhos)?").
+
+discriminador(contato_produto_quimico_alta_letalidade, pediatria,
+    "Alta probabilidade de a substância causar óbito ou doença grave (raticidas, agrotóxicos, pesticidas, plantas ou medicamentos).",
+    "Houve contato com produto químico de alta letalidade?").
+
+discriminador(ingestao_substancia, pediatria,
+    "Ingestão de alguma substância, mesmo se há desconhecimento do produto e da quantidade ingerida.",
+    "Houve ingestão de alguma substância?").
+
+discriminador(prurido_irritabilidade_superficie_extensa, pediatria,
+    "História de exposição corporal a alguma substância irritante com prurido e/ou irritabilidade em superfície corporal extensa.",
+    "Apresenta prurido e/ou irritabilidade em superfície corporal extensa?").
+
+discriminador(sem_urinar, pediatria,
+    "Dificuldade em produzir ou eliminar urina. O relato do número de fraldas trocadas pode ser útil.",
+    "A criança está sem urinar (redução ou ausência de diurese)?").
+
+discriminador(mutilacao, pediatria,
+    "Amputação ou perda de partes corporais por mordedura humana ou animal.",
+    "Houve mutilação com amputação ou perda de parte corporal por mordedura?").
+
+discriminador(lesao_grandes_vasos_ou_hemorragia_grave, pediatria,
+    "Lesões com sangramento visível apesar de compressão, em jatos ou esguichos de sangue.",
+    "Há lesão de grandes vasos ou hemorragia grave (sangramento em jatos/esguichos)?").
+
+discriminador(acidente_animal_peconhento_acometimento_sistemico, pediatria,
+    "Acidente ofídico, escorpiônico ou aracnídeo com toxemia e sinais sistêmicos: apatia, hiporresponsividade, palidez, hipoatividade, sonolência ou desorientação.",
+    "Houve acidente com animal peçonhento com acometimento sistêmico?").
+
+discriminador(acidente_animal_peconhento_sinais_locais, pediatria,
+    "Acidente ofídico, escorpiônico ou aracnídeo sem toxemia, com sinais e sintomas locais.",
+    "Houve acidente com animal peçonhento com sinais e sintomas locais?").
+
+discriminador(ferida_profunda, pediatria,
+    "Ferida profunda sem perda de substância.",
+    "Apresenta ferida profunda sem perda de substância?").
+
+discriminador(ferimento_extenso_mordedura_ou_area_critica, pediatria,
+    "Ferida por mordedura humana ou animal sem perda de substância, mas extensa ou em área crítica.",
+    "Apresenta ferimento extenso por mordedura ou em área crítica?").
+
+discriminador(acidente_rabico_potencial, pediatria,
+    "Arranhadura ou lambedura em mucosa ou pele não íntegra por cães, gatos, morcegos ou outros animais silvestres, inclusive domiciliados.",
+    "Há acidente rábico potencial (arranhadura/lambedura em mucosa ou pele não íntegra)?").
+
+discriminador(hemorragia_leve_controlada, pediatria,
+    "Mordedura com hemorragia leve associada a ferida pequena, controlada por compressão.",
+    "Há hemorragia leve controlada associada a mordedura?").
+
+discriminador(prurido_moderado, pediatria,
+    "Prurido persistente, podendo ter repercussões sistêmicas.",
+    "Apresenta prurido moderado (persistente e com possível repercussão sistêmica)?").
+
+discriminador(infeccao_ou_inflamacao_local, pediatria,
+    "Lesão localizada, sem febre, com pus, odor fétido ou sinais de reação inflamatória local (lesão quente, muito vermelha ou dolorosa).",
+    "Apresenta infecção ou inflamação local da lesão?").
+
+discriminador(ferida_pequena_sem_sangramento, pediatria,
+    "Mordedura pequena sem hemorragia associada.",
+    "Apresenta ferida pequena sem sangramento?").
 
 % =========================
 % ACESSO AOS DADOS
