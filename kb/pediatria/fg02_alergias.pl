@@ -46,6 +46,9 @@ regra(alergias, laranja,
 regra(alergias, laranja,
     [dor_intensa]).
 
+regra(alergias, laranja,
+    [coceira_intensa]).
+
 
 % AMARELO
 regra(alergias, amarelo,

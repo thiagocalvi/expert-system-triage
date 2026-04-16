@@ -54,6 +54,9 @@ regra(falta_de_ar, amarelo,
 regra(falta_de_ar, amarelo,
     [tosse_frequente_emetizante]).
 
+regra(falta_de_ar, amarelo,
+    [taquipneia]).
+
 
 % VERDE
 regra(falta_de_ar, verde,

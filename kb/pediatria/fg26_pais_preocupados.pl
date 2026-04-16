@@ -43,6 +43,9 @@ regra(pais_preocupados, laranja,
 regra(pais_preocupados, laranja,
 	[dor_intensa]).
 
+regra(pais_preocupados, laranja,
+	[ingestao_objeto_perigoso]).
+
 
 % AMARELO
 regra(pais_preocupados, amarelo,

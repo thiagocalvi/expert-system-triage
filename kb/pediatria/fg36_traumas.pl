@@ -21,7 +21,7 @@ regra(traumas, vermelho,
 	[trauma_toracico_craniano_abdominal_ou_perfuracao]).
 
 regra(traumas, vermelho,
-	[mecanismo_de_trauma_significativo]).
+	[mecanismo_de_alta_energia]).
 
 
 % LARANJA
@@ -42,6 +42,9 @@ regra(traumas, laranja,
 
 regra(traumas, laranja,
 	[ferimento_extenso]).
+
+regra(traumas, laranja,
+	[queda_de_altura]).
 
 
 % AMARELO

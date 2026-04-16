@@ -54,6 +54,9 @@ regra(convulsoes, amarelo,
 regra(convulsoes, amarelo,
     [deficit_neurologico_novo]).
 
+regra(convulsoes, amarelo,
+    [historico_convulsao]).
+
 
 % VERDE
 regra(convulsoes, verde,

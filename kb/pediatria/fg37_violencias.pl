@@ -43,6 +43,9 @@ regra(violencias, laranja,
 regra(violencias, laranja,
 	[violencia_sexual_menor_72h]).
 
+regra(violencias, laranja,
+	[ingestao_ou_exposicao_substancias_menos_6h]).
+
 
 % AMARELO
 regra(violencias, amarelo,
