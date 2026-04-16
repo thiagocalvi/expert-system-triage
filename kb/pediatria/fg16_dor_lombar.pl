@@ -17,7 +17,7 @@ regra(dor_lombar, vermelho,
 
 % LARANJA
 regra(dor_lombar, laranja,
-    [mecanismo_trauma_significativo]).
+    [mecanismo_de_trauma_significativo]).
 
 regra(dor_lombar, laranja,
     [dor_abdominal]).

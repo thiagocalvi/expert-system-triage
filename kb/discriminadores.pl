@@ -53,8 +53,9 @@ discriminador(distensao_abdominal, adulto,
 discriminador(fezes_com_sangue, adulto,
     "Presença de sangue nas fezes",
     "Há sangue nas fezes?").
-discriminador(fezes_com_sangue, pediatria,
-    "Fezes e / ou vômitos com presença de sangue.",
+
+discriminador(fezes_ou_vomitos_com_sangue, pediatria,
+    "Fezes com sangramento vivo e / ou vômitos sanguinolentos.",
     "Apresenta fezes com sangramento vivo e/ou vômitos sanguinolentos?").
 
 discriminador(disuria, adulto,
@@ -182,7 +183,7 @@ discriminador(historia_inconsciencia, adulto,
     "Há história de inconsciência prévia?").
 discriminador(historia_inconsciencia, pediatria,
     "Testemunha confiável relata se paciente perdeu a consciência, ou se não se lembra do incidente",
-    "Houve histórico de inconsciência relado por testemunha ou amnésia?").
+    "Houve histórico de inconsciência relatado por testemunha ou amnésia?").
 
 discriminador(saturacao_o2_maior_igual_96, adulto,
     "Saturação de O2 >= 96%",
@@ -553,10 +554,6 @@ discriminador(artralgia_sem_sinais_flogisticos, pediatria,
 discriminador(dor_superficial_cronica_compressao, pediatria,
     "Dor muscular sob pressão.",
     "Apresenta dor superficial crônica à compressão?").
-
-discriminador(mecanismo_trauma_significativo, pediatria,
-    "Trauma penetrante ou com alta transferência de energia (velocidade > 60 km/h, ejeção, queda de altura).",
-    "Há mecanismo de trauma significativo?").
 
 discriminador(dor_abdominal, pediatria,
     "Qualquer dor sentida no abdome.",

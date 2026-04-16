@@ -26,7 +26,7 @@ regra(vomitos_diarreia, laranja,
     [hipoglicemia]).
 
 regra(vomitos_diarreia, laranja,
-    [fezes_com_sangue]).
+    [fezes_ou_vomitos_com_sangue]).
 
 
 % AMARELO

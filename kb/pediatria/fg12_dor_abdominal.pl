@@ -19,7 +19,7 @@ regra(dor_abdominal, laranja,
 
 % AMARELO
 regra(dor_abdominal, amarelo,
-    [fezes_com_sangue]).
+    [fezes_ou_vomitos_com_sangue]).
 
 regra(dor_abdominal, amarelo,
     [dor_moderada]).
