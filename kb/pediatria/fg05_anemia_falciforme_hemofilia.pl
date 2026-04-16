@@ -9,7 +9,7 @@ regra(anemia_falciforme_hemofilia, vermelho,
     [sinais_de_choque]).
 
 regra(anemia_falciforme_hemofilia, vermelho,
-    [convulsao]).
+    [convulsao_em_atividade]).
 
 regra(anemia_falciforme_hemofilia, vermelho,
     [paciente_nao_responsivo]).

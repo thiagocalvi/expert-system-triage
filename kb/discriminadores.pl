@@ -426,6 +426,10 @@ discriminador(convulsao, pediatria,
     "Pacientes que estão apresentando movimentos tônicos ou clônicos de uma crise convulsiva ou parcial à admissão.",
     "Apresenta convulsão em atividade (crise tônico-clônica ou parcial)?").
 
+discriminador(convulsao_em_atividade, pediatria,
+    "Crise convulsiva em curso à admissão (movimentos tônicos e/ou clônicos, generalizados ou parciais).",
+    "Apresenta convulsão em atividade no momento da admissão?").
+
 discriminador(inicio_abrupto, pediatria,
     "Início em segundos ou minutos. Pode acordar o paciente.",
     "O início foi abrupto (segundos/minutos, podendo acordar o paciente)?").
@@ -765,6 +769,238 @@ discriminador(infeccao_ou_inflamacao_local, pediatria,
 discriminador(ferida_pequena_sem_sangramento, pediatria,
     "Mordedura pequena sem hemorragia associada.",
     "Apresenta ferida pequena sem sangramento?").
+
+discriminador(palpitacao_atual, pediatria,
+    "Sensação de coração acelerado que ainda está presente no momento da classificação.",
+    "Apresenta palpitação atual (coração acelerado neste momento)?").
+
+discriminador(historico_cardiaco_importante, pediatria,
+    "Arritmia recorrente ameaçadora à vida ou cardiopatia previamente conhecida com risco de deterioração rápida.",
+    "Há histórico cardíaco importante (arritmia grave recorrente ou cardiopatia conhecida)?").
+
+discriminador(avulsao_dentaria_aguda, pediatria,
+    "Avulsão de um dente inteiro ocorrida nas últimas 24 horas.",
+    "Houve avulsão dentária aguda (dente inteiro arrancado nas últimas 24h)?").
+
+discriminador(pele_critica, pediatria,
+    "Fratura ou deslocamento com fragmento ósseo pressionando a pele, que fica pálida e sob tensão, com risco de perda de viabilidade.",
+    "Há pele crítica (pele pálida/tensa por pressão de fratura ou deslocamento)?").
+
+discriminador(dor_pleuritica, pediatria,
+    "Dor localizada no peito que piora com respiração, tosse ou espirro.",
+    "Apresenta dor pleurítica (piora para respirar, tossir ou espirrar)?").
+
+discriminador(deformidade_grosseira, pediatria,
+    "Angulação ou rotação grosseira e claramente anormal percebida no membro.",
+    "Há deformidade grosseira (angulação/rotação grosseiramente anormal)?").
+
+discriminador(fratura_exposta, pediatria,
+    "Ferida ao redor da fratura com possibilidade de comunicação com o osso fraturado.",
+    "Há suspeita de fratura exposta (ferida comunicando com a fratura)?").
+
+discriminador(edema, pediatria,
+    "Inchaço, aumento anormal de tamanho em segmento corporal.",
+    "Apresenta edema (inchaço/aumento anormal de tamanho)?").
+
+discriminador(pequena_hemorragia, pediatria,
+    "Hemorragia de origem venosa, de pequeno volume.",
+    "Apresenta pequena hemorragia (origem venosa)?").
+
+discriminador(hematoma_de_orelha, pediatria,
+    "Hematoma geralmente pós-traumático na orelha.",
+    "Apresenta hematoma de orelha?").
+
+discriminador(sensibilidade_na_face_alterada, pediatria,
+    "Qualquer alteração de sensibilidade na face.",
+    "Apresenta sensibilidade na face alterada?").
+
+discriminador(diplopia, pediatria,
+    "Visão dupla.",
+    "Apresenta diplopia (visão dupla)?").
+
+discriminador(celulite_periorbitaria, pediatria,
+    "Processo infeccioso nos tecidos das pálpebras, superior ao septo orbitário.",
+    "Apresenta sinais de celulite periorbitária?").
+
+discriminador(sensacao_de_corpo_estranho, pediatria,
+    "Sensação de algo no olho, geralmente descrita como raspando ou arranhando.",
+    "Apresenta sensação de corpo estranho no olho?").
+
+discriminador(hemorragia_auricular_visivel, pediatria,
+    "Sangramento visível no ouvido, podendo indicar presença de corpo estranho ou lesão local.",
+    "Apresenta hemorragia auricular visível?").
+
+discriminador(tumefacao_dolorosa_retroauricular, pediatria,
+    "Aumento de volume retroauricular associado à dor.",
+    "Apresenta tumefação dolorosa retroauricular?").
+
+discriminador(vertigem, pediatria,
+    "Sensação aguda de tontura ou de rotação, podendo associar-se a náusea e vômito.",
+    "Apresenta vertigem (sensação de estar girando/tonto)?").
+
+discriminador(perda_recente_audicao, pediatria,
+    "Perda da audição em um ou ambos os ouvidos na última semana.",
+    "Apresenta perda recente da audição (última semana)?").
+
+discriminador(otorreia, pediatria,
+    "Saída de secreção pelo ouvido.",
+    "Apresenta otorreia (saída de secreção pelo ouvido)?").
+
+discriminador(superficie_corporal_queimada_maior_10, pediatria,
+    "Superfície corporal queimada maior que 10%.",
+    "A superfície corporal queimada é maior que 10%?").
+
+discriminador(queimaduras_associadas_politrauma, pediatria,
+    "Queimaduras associadas a múltiplas lesões (politrauma), frequentemente em acidentes de trânsito.",
+    "Há queimaduras associadas a politrauma?").
+
+discriminador(queimaduras_quimicas, pediatria,
+    "Queimaduras por substâncias químicas em contato com pele ou roupas.",
+    "Há queimaduras químicas?").
+
+discriminador(queimaduras_de_face, pediatria,
+    "Qualquer queimadura em qualquer parte da face.",
+    "Há queimaduras de face?").
+
+discriminador(inalacao_de_fumaca, pediatria,
+    "Inalação em ambiente confinado com fumaça/produtos químicos ou sinais de queimadura de vias aéreas.",
+    "Há inalação de fumaça ou suspeita de queimadura de vias aéreas?").
+
+discriminador(queimaduras_eletricas, pediatria,
+    "Queimaduras provocadas por eletricidade, especialmente alta voltagem.",
+    "Há queimaduras elétricas?").
+
+discriminador(queimaduras_de_genitalia, pediatria,
+    "Queimadura significativa em região genital.",
+    "Há queimaduras de genitália?").
+
+discriminador(queimaduras_em_circunferencia_risco_sindrome_compartimental, pediatria,
+    "Queimaduras em circunferência com risco de síndrome compartimental (extremidade fria/cianótica, membro rígido/endurecido).",
+    "Há queimaduras em circunferência com risco de síndrome compartimental?").
+
+discriminador(queimaduras_com_comorbidades_ou_risco_social, pediatria,
+    "Queimaduras associadas a comorbidades clínicas, maus-tratos, violência ou vulnerabilidade social.",
+    "Há queimaduras associadas a comorbidades clínicas ou risco social?").
+
+discriminador(sinais_de_infeccao_em_queimadura, pediatria,
+    "Sinais de infecção em queimadura: eritema, flogose com ou sem prurido.",
+    "A queimadura apresenta sinais de infecção (eritema/flogose/prurido)?").
+
+discriminador(queimaduras_mais_24h_com_queixa_clinica_nova, pediatria,
+    "Queimadura com mais de 24 horas associada a nova queixa clínica (prurido, hiperemia, limitação parcial de movimentos).",
+    "Há queimaduras com mais de 24h associadas a queixa clínica nova?").
+
+discriminador(queimaduras_mais_24h_sem_alteracoes_clinicas, pediatria,
+    "Queimadura com mais de 24 horas sem alterações clínicas atuais, apenas relato.",
+    "Há queimaduras com mais de 24h sem alterações clínicas?").
+
+discriminador(hematuria_grave, pediatria,
+    "Urina escura ou avermelhada por grande quantidade de sangue.",
+    "Apresenta hematúria grave (grande quantidade de sangue na urina)?").
+
+discriminador(hematuria_fraca, pediatria,
+    "Urina escura ou avermelhada por pequena quantidade de sangue.",
+    "Apresenta hematúria fraca (pequena quantidade de sangue na urina)?").
+
+discriminador(epistaxe_sem_controle_tamponamento, pediatria,
+    "Sangramento nasal persistente mesmo após tentativa de hemostasia com tamponamento.",
+    "Apresenta epistaxe sem controle após tamponamento?").
+
+discriminador(evacuacao_sangue_vivo_ou_alterado, pediatria,
+    "Evacuação de sangue vivo ou alterado, sugerindo sangramento gastrintestinal ativo e/ou maciço.",
+    "Apresenta evacuação de sangue vivo ou alterado?").
+
+discriminador(relato_de_epistaxes, pediatria,
+    "Histórico de episódios de epistaxe (sangramento nasal).",
+    "Há relato de epistaxes prévias?").
+
+discriminador(relato_de_hemorroidas, pediatria,
+    "Histórico de hemorroidas (veias inflamadas ou dilatadas no ânus/reto).",
+    "Há relato de hemorroidas?").
+
+discriminador(politraumatizado, pediatria,
+    "Criança com múltiplos traumas simultâneos.",
+    "A criança está politraumatizada (múltiplos traumas)?").
+
+discriminador(amputacao_traumatica_de_membros, pediatria,
+    "Perda traumática de um ou mais segmentos de membros.",
+    "Há amputação traumática de membro(s)?").
+
+discriminador(trauma_toracico_craniano_abdominal_ou_perfuracao, pediatria,
+    "Trauma físico envolvendo tórax, crânio e/ou abdome, incluindo trauma perfurante.",
+    "Há trauma torácico, craniano, abdominal ou com perfuração?").
+
+discriminador(tce_com_perda_consciencia_ou_vomitos, pediatria,
+    "Trauma cranioencefálico com perda de consciência e/ou vômitos.",
+    "Há TCE com perda de consciência e/ou vômitos?").
+
+discriminador(fratura_exposta_ou_com_deformidade, pediatria,
+    "Fratura exposta e/ou com deformidade evidente.",
+    "Há fratura exposta e/ou com deformidade?").
+
+discriminador(obnubilado, pediatria,
+    "Rebaixamento do nível de consciência com resposta lenta ou ausente a estímulos externos.",
+    "A criança está obnubilada?").
+
+discriminador(ferimento_extenso, pediatria,
+    "Escoriações e/ou feridas de grande proporção.",
+    "Há ferimento extenso?").
+
+discriminador(tce_menor_12h_sem_perda_consciencia_ou_vomitos, pediatria,
+    "Trauma cranioencefálico há menos de 12 horas, sem perda de consciência e sem vômitos.",
+    "Há TCE < 12h sem perda de consciência e sem vômitos?").
+
+discriminador(tce_maior_12h_sem_perda_consciencia_ou_vomitos, pediatria,
+    "Trauma cranioencefálico há mais de 12 horas, sem perda de consciência e sem vômitos.",
+    "Há TCE > 12h sem perda de consciência e sem vômitos?").
+
+discriminador(agitacao_psicomotora, pediatria,
+    "Movimentos involuntários e sem propósito relacionados à tensão mental e ansiedade.",
+    "Apresenta agitação psicomotora?").
+
+discriminador(violencia_sexual_menor_72h, pediatria,
+    "Violência sexual ocorrida há menos de 72 horas.",
+    "Houve violência sexual nas últimas 72 horas?").
+
+discriminador(historico_tentativas_recorrentes_de_suicidio, pediatria,
+    "Histórico de tentativas anteriores e recorrentes de suicídio.",
+    "Há histórico de tentativas recorrentes de suicídio?").
+
+discriminador(violencia_sexual_maior_72h, pediatria,
+    "Violência sexual ocorrida há mais de 72 horas ou de repetição sem evento recente.",
+    "Houve violência sexual há mais de 72 horas?").
+
+discriminador(violencia_psicologica_ou_moral, pediatria,
+    "Conduta que causa dano emocional, redução da autoestima ou controle/degradação de ações e crenças.",
+    "Há sinais de violência psicológica e/ou moral?").
+
+discriminador(ideacao_suicida, pediatria,
+    "Pensamento, consideração ou planejamento de suicídio.",
+    "Apresenta ideação suicida?").
+
+discriminador(autoflagelacao, pediatria,
+    "Ato de causar dor ou ferimento em si próprio.",
+    "Há autoflagelação (autoagressão física)?").
+
+discriminador(desidratacao_grave, pediatria,
+    "Dois ou mais sinais de desidratação grave, incluindo pelo menos um sinal maior (comatoso/hipotônico, olhos muito fundos, sem lágrimas, incapaz de beber, prega cutânea > 2s, pulso muito fraco/ausente).",
+    "Apresenta desidratação grave?").
+
+discriminador(desidratacao, pediatria,
+    "Dois ou mais sinais de alerta para desidratação (irritado/intranquilo, olhos fundos, sem lágrimas, sede intensa, prega cutânea de retorno lento, pulso rápido e fraco).",
+    "Apresenta desidratação?").
+
+discriminador(quadro_agudo_sem_desidratacao, pediatria,
+    "Diarreia e/ou vômitos sem sinais clínicos de desidratação.",
+    "Apresenta quadro agudo sem desidratação?").
+
+discriminador(diarreia_sanguinolenta_prolongada, pediatria,
+    "Diarreia com sangue por mais de 15 dias, sem sinais de desidratação.",
+    "Apresenta diarreia sanguinolenta > 15 dias sem desidratação?").
+
+discriminador(diarreia_prolongada, pediatria,
+    "Diarreia por mais de 15 dias, sem sinais de desidratação.",
+    "Apresenta diarreia > 15 dias sem desidratação?").
 
 % =========================
 % ACESSO AOS DADOS

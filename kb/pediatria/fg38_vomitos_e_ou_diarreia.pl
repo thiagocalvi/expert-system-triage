@@ -37,13 +37,10 @@ regra(vomitos_diarreia, amarelo,
     [dor_moderada]).
 
 regra(vomitos_diarreia, amarelo,
-    [melena]).
+    [melena_ou_groselha]).
 
 regra(vomitos_diarreia, amarelo,
     [vomitos_persistentes]).
-
-regra(vomitos_diarreia, amarelo,
-    [alteracao_temperatura]).
 
 
 % VERDE

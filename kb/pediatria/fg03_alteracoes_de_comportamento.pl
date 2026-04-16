@@ -18,7 +18,7 @@ regra(alteracoes_comportamento, vermelho,
     [hipoglicemia]).
 
 regra(alteracoes_comportamento, vermelho,
-    [convulsao]).
+    [convulsao_em_atividade]).
 
 regra(alteracoes_comportamento, vermelho,
     [paciente_nao_responsivo]).

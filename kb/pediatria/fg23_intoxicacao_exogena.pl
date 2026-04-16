@@ -12,7 +12,7 @@ regra(intoxicacao_exogena, vermelho,
     [apneia_bradipneia_movimentos_paradoxais]).
 
 regra(intoxicacao_exogena, vermelho,
-    [convulsao]).
+    [convulsao_em_atividade]).
 
 regra(intoxicacao_exogena, vermelho,
     [paciente_nao_responsivo]).
