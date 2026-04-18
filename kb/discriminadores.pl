@@ -207,7 +207,7 @@ discriminador(nenhum_determinante_convulsoes, adulto,
     "Nenhum dos determinantes anteriores está presente?").
 
 discriminador(obstrucao_vias_aereas, adulto,
-    "Início súbito de grave dificuldade respiratória, sem sintomas respiratórios prévios, com secreção, sangue, corpo estranho, edema de lábios ou língua, ou obstrução/deslocamento de traqueostomia",
+    "Início súbito de grave dificuldade respiratória, sem febre ou sintomas respiratórios prévios, com secreção, sangue, corpo estranho, edema de lábios ou língua, ou obstrução/deslocamento de traqueostomia",
     "O paciente apresenta comprometimento/obstrução de vias aéreas?").
 
 discriminador(periodo_pos_comicial, adulto,
@@ -345,6 +345,274 @@ discriminador(nauseas_vomitos_associados_dor, adulto,
 discriminador(diminuicao_recente_visao, adulto,
     "Diminuição recente da visão",
     "O paciente apresenta diminuição recente da visão?").
+
+discriminador(historia_viagem_recente, adulto,
+    "História de viagem recente",
+    "Há história de viagem recente?").
+
+discriminador(dor_toracica, adulto,
+    "Dor no tórax, podendo ou não estar associada a outros sintomas cardiovasculares",
+    "O paciente apresenta dor torácica?").
+
+discriminador(palpitacao_no_momento, adulto,
+    "Palpitação no momento",
+    "O paciente apresenta palpitação no momento?").
+
+discriminador(evento_recente_sem_sinais_gravidade, adulto,
+    "Início recente dos sintomas, sem sinais de gravidade",
+    "O evento é recente e sem sinais de gravidade?").
+
+discriminador(amputacao_traumatica, adulto,
+    "Amputação traumática",
+    "O paciente apresenta amputação traumática?").
+
+discriminador(otorragia, adulto,
+    "Sangramento pelo conduto auditivo externo",
+    "O paciente apresenta otorragia?").
+
+discriminador(palidez_cutanea_sudorese_fria, adulto,
+    "Palidez cutânea associada a sudorese fria",
+    "O paciente apresenta palidez cutânea e sudorese fria?").
+
+discriminador(dor_cervical, adulto,
+    "Dor cervical",
+    "O paciente apresenta dor cervical?").
+
+discriminador(dor_ou_instabilidade_pelve, adulto,
+    "Dor ou instabilidade da pelve",
+    "O paciente apresenta dor ou instabilidade da pelve?").
+
+discriminador(nauseas_ou_vomitos, adulto,
+    "Náuseas e/ou vômitos",
+    "O paciente apresenta náuseas e/ou vômitos?").
+
+discriminador(evisceracao, adulto,
+    "Extrusão de vísceras abdominais",
+    "O paciente apresenta evisceração?").
+
+discriminador(ferimento_perfurante, adulto,
+    "Ferimento perfurante",
+    "O paciente apresenta ferimento perfurante?").
+
+discriminador(hemorragia_controlavel, adulto,
+    "Sangramento ativo contido por compressão",
+    "O paciente apresenta hemorragia controlável?").
+
+discriminador(cefaleia_moderada, adulto,
+    "Cefaleia moderada (5 a 7/10), sem perda de consciência, náuseas, vômitos, crise convulsiva ou ferimento perfurante",
+    "O paciente apresenta cefaleia moderada?").
+
+discriminador(cefaleia_pos_trauma, adulto,
+    "Cefaleia após trauma",
+    "O paciente apresenta cefaleia pós-trauma?").
+
+discriminador(contusoes_escoriacoes, adulto,
+    "Contusões e escoriações",
+    "O paciente apresenta contusões e escoriações?").
+
+discriminador(trauma_ocorrido_mais_6_horas, adulto,
+    "Trauma ocorrido há mais de 6 horas",
+    "O trauma ocorreu há mais de 6 horas?").
+
+discriminador(edema_local, adulto,
+    "Edema local",
+    "O paciente apresenta edema local?").
+
+discriminador(deformidade_local_sem_lesoes_associadas, adulto,
+    "Deformidade local sem lesões associadas",
+    "O paciente apresenta deformidade local sem lesões associadas?").
+
+discriminador(dificuldade_para_deglutir, adulto,
+    "Dificuldade para deglutir",
+    "O paciente apresenta dificuldade para deglutir?").
+
+discriminador(ardencia_garganta_sem_sialorreia, adulto,
+    "Ardência na garganta sem sialorreia",
+    "O paciente apresenta ardência na garganta sem sialorreia?").
+
+discriminador(tosse_coriza_obstrucao_nasal, adulto,
+    "Tosse, coriza ou obstrução nasal",
+    "O paciente apresenta tosse, coriza ou obstrução nasal?").
+
+discriminador(sinais_de_isquemia, adulto,
+    "Sinais clínicos sugestivos de isquemia",
+    "O paciente apresenta sinais de isquemia?").
+
+discriminador(sinais_flogisticos_ou_drenagem_articulacao, adulto,
+    "Sinais flogísticos (edema, hiperemia, calor e rubor) ou drenagem em articulação",
+    "O paciente apresenta sinais flogísticos ou drenagem em articulação?").
+
+discriminador(comprometimento_vascular_distal, adulto,
+    "Comprometimento vascular distal",
+    "O paciente apresenta comprometimento vascular distal?").
+
+discriminador(grave_mecanismo_de_trauma, adulto,
+    "Grave mecanismo de trauma: desaceleração frontal rápida, desaceleração vertical rápida ou penetração de projétil",
+    "Houve grave mecanismo de trauma?").
+
+discriminador(dificuldade_de_andar, adulto,
+    "Dificuldade de andar",
+    "O paciente apresenta dificuldade de andar?").
+
+discriminador(sem_sinais_de_isquemia, adulto,
+    "Ausência de sinais de isquemia",
+    "O paciente está sem sinais de isquemia?").
+
+discriminador(sinais_flogisticos_locais_nao_articulares, adulto,
+    "Sinais flogísticos locais não articulares (edema, hiperemia, calor e rubor)",
+    "O paciente apresenta sinais flogísticos locais não articulares?").
+
+discriminador(limitacao_movimentos_funcao, adulto,
+    "Limitação dos movimentos ou da função",
+    "O paciente apresenta limitação dos movimentos ou da função?").
+
+discriminador(edema_articular_sem_flogose, adulto,
+    "Edema articular sem flogose",
+    "O paciente apresenta edema articular sem flogose?").
+
+discriminador(limitacao_leve_movimentos_sem_perda_funcao, adulto,
+    "Limitação leve dos movimentos sem perda da função",
+    "O paciente apresenta limitação leve dos movimentos sem perda da função?").
+
+discriminador(dor_precordial, adulto,
+    "Dor intensa em aperto ou peso no centro do peito, irradiando para braço esquerdo, pescoço ou mandíbula, podendo estar associada a sudorese e náuseas",
+    "O paciente apresenta dor precordial?").
+
+discriminador(trauma_penetrante, adulto,
+    "Trauma penetrante",
+    "O paciente apresenta trauma penetrante?").
+
+discriminador(hemoptise_ativa, adulto,
+    "Sangramento ativo vermelho vivo em quantidade maior que uma colher de chá",
+    "O paciente apresenta hemoptise ativa?").
+
+discriminador(trauma_toracico_com_dispneia, adulto,
+    "Trauma torácico associado a dispneia",
+    "O paciente apresenta trauma torácico com dispneia?").
+
+discriminador(historia_cardiaca_importante, adulto,
+    "História cardíaca importante",
+    "Há história cardíaca importante?").
+
+discriminador(dor_pleuritica, adulto,
+    "Dor aguda causada pela irritação da pleura, que piora com a respiração profunda e com a tosse",
+    "O paciente apresenta dor pleurítica?").
+
+discriminador(epistaxe, adulto,
+    "Sangramento ativo controlado por compressão direta",
+    "O paciente apresenta epistaxe?").
+
+discriminador(piora_ao_movimento, adulto,
+    "Dor de característica muscular, localizada, sensível à palpação, que piora com movimentos do tronco ou membros superiores",
+    "A dor piora ao movimento?").
+
+discriminador(tosse_produtiva, adulto,
+    "Tosse produtiva",
+    "O paciente apresenta tosse produtiva?").
+
+discriminador(edema_facial, adulto,
+    "Edema facial",
+    "O paciente apresenta edema facial?").
+
+discriminador(edema_de_lingua, adulto,
+    "Edema de língua",
+    "O paciente apresenta edema de língua?").
+
+discriminador(risco_contaminacao_continua, adulto,
+    "Exposição contínua de todo o corpo ou de parte dele a agente contaminante",
+    "Há risco de contaminação contínua?").
+
+discriminador(lesao_ocular_quimica_aguda, adulto,
+    "Lesão ocular química aguda",
+    "O paciente apresenta lesão ocular química aguda?").
+
+discriminador(ingestao_menos_6h_sem_sintomas, adulto,
+    "Ingestão há menos de 6 horas, mesmo sem sintomas",
+    "Houve ingestão há menos de 6 horas, mesmo sem sintomas?").
+
+discriminador(historia_psiquiatrica_importante, adulto,
+    "História psiquiátrica importante",
+    "Há história psiquiátrica importante?").
+
+discriminador(acidente_perfurocortante_material_biologico, adulto,
+    "Acidente perfurocortante com material biológico",
+    "Houve acidente perfurocortante com material biológico?").
+
+discriminador(prurido_ou_irritacao_intensa, adulto,
+    "Prurido e/ou irritação intensa",
+    "O paciente apresenta prurido e/ou irritação intensa?").
+
+discriminador(alteracoes_dermicas_locais, adulto,
+    "Alterações dérmicas locais",
+    "O paciente apresenta alterações dérmicas locais?").
+
+discriminador(lesao_grandes_vasos_ou_hemorragia_grave, adulto,
+    "Sangramento visível apesar de compressão, em jato/esguicho, ou lesão de grandes vasos com perda sanguínea importante",
+    "Há hemorragia sem controle ou lesão de grandes vasos/hemorragia grave?").
+
+discriminador(saturacao_o2_menor_90_ou_menor_95_com_suplementacao, adulto,
+    "Saturação de O2 < 90% em ar ambiente ou < 95% mesmo com suplementação de O2",
+    "A saturação de O2 está < 90% em ar ambiente ou < 95% com suplementação de O2?").
+
+discriminador(ferimentos_profundos, adulto,
+    "Ferimentos profundos",
+    "O paciente apresenta ferimentos profundos?").
+
+discriminador(exposicao_veneno_alta_letalidade, adulto,
+    "Exposição a veneno de alta letalidade",
+    "Houve exposição a veneno de alta letalidade?").
+
+discriminador(sem_sinais_sistemicos, adulto,
+    "Ausência de sinais sistêmicos",
+    "O paciente está sem sinais sistêmicos?").
+
+discriminador(eritema_ou_bolhas_disseminadas, adulto,
+    "Eritema ou bolhas disseminadas",
+    "O paciente apresenta eritema ou bolhas disseminadas?").
+
+discriminador(prurido_intenso, adulto,
+    "Prurido intenso",
+    "O paciente apresenta prurido intenso?").
+
+discriminador(inflamacao_local, adulto,
+    "Edema, hiperemia, calor e rubor em topografia local",
+    "O paciente apresenta inflamação local?").
+
+discriminador(infeccao_local, adulto,
+    "Sinais locais de infecção sem repercussão sistêmica",
+    "O paciente apresenta infecção local?").
+
+discriminador(hipoglicemia_grave, adulto,
+    "Glicemia < 50 mg/dL associada a alteração de comportamento, perda de consciência, crise convulsiva, sudorese intensa ou necessidade de ajuda de terceiros",
+    "O paciente apresenta hipoglicemia grave?").
+
+discriminador(sudorese_fria, adulto,
+    "Presença de sudorese fria",
+    "O paciente apresenta sudorese fria?").
+
+discriminador(sinais_vitais_alterados, adulto,
+    "PAS > 220 mmHg ou PAD > 130 mmHg; PAS < 80 mmHg; FC < 40 ou > 150 bpm; FR < 10 ou > 36 irpm",
+    "O paciente apresenta sinais vitais alterados?").
+
+discriminador(bolhas_ou_manchas_disseminadas, adulto,
+    "Bolhas ou manchas disseminadas",
+    "O paciente apresenta bolhas ou manchas disseminadas?").
+
+discriminador(imunossupressao_conhecida, adulto,
+    "Imunossupressão previamente conhecida",
+    "Há imunossupressão conhecida?").
+
+discriminador(historia_hematologica_importante, adulto,
+    "História hematológica importante",
+    "Há história hematológica importante?").
+
+discriminador(alteracao_temperatura_37_8, adulto,
+    "Temperatura < 35 °C ou > 37,8 °C",
+    "Há alteração de temperatura (< 35 °C ou > 37,8 °C)?").
+
+discriminador(viagem_recente_area_endemica_menos_7_dias, adulto,
+    "Viagem recente para área endêmica em intervalo inferior a 7 dias",
+    "Houve viagem recente para área endêmica (menos de 7 dias)?").
 
 discriminador(toxemiado_prostrado_ou_febril, adulto,
     "Cianótico, taquicárdico, dispneico",
