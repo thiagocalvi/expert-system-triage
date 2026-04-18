@@ -32,7 +32,7 @@ regra(traumas, laranja,
 	[edema_mais_mais_4]).
 
 regra(traumas, laranja,
-	[alteracoes_respiratorias]).
+	[respiracao_inadequada]).
 
 regra(traumas, laranja,
 	[incapacidade_de_andar]).

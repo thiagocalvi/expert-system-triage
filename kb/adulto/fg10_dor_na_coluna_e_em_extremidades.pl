@@ -12,7 +12,7 @@ regra(dor_na_coluna_e_em_extremidades, vermelho,
 	[sinais_neurologicos_focais]).
 
 regra(dor_na_coluna_e_em_extremidades, vermelho,
-	[sinais_de_choque_fc_150]).
+	[sinais_de_choque]).
 
 regra(dor_na_coluna_e_em_extremidades, vermelho,
 	[sinais_de_isquemia]).
@@ -26,7 +26,7 @@ regra(dor_na_coluna_e_em_extremidades, laranja,
 	[dor_intensa]).
 
 regra(dor_na_coluna_e_em_extremidades, laranja,
-	[alteracao_temperatura]).
+	[alteracao_temperatura_maior_40]).
 
 regra(dor_na_coluna_e_em_extremidades, laranja,
 	[comprometimento_vascular_distal]).

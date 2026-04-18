@@ -35,7 +35,7 @@ regra(alteracoes_consciencia, laranja,
     [extrema_agitacao_alucinacoes]).
 
 regra(alteracoes_consciencia, laranja,
-    [alteracao_temperatura]).
+    [alteracao_temperatura_maior_40]).
 
 regra(alteracoes_consciencia, laranja,
     [saturacao_o2_85_89]).

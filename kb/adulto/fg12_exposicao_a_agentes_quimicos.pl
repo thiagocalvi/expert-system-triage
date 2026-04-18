@@ -21,7 +21,7 @@ regra(exposicao_a_agentes_quimicos, vermelho,
 	[edema_de_lingua]).
 
 regra(exposicao_a_agentes_quimicos, vermelho,
-	[sinais_de_choque_fc_150]).
+	[sinais_de_choque]).
 
 regra(exposicao_a_agentes_quimicos, vermelho,
 	[convulsao_em_atividade]).

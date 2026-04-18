@@ -12,7 +12,7 @@ regra(dor_abdominal_ou_queixas_abdominais, vermelho,
 	[respiracao_inadequada]).
 
 regra(dor_abdominal_ou_queixas_abdominais, vermelho,
-	[sinais_de_choque_fc_150]).
+	[sinais_de_choque]).
 
 regra(dor_abdominal_ou_queixas_abdominais, vermelho,
 	[vomito_com_sangue_repercussao_hemodinamica]).
@@ -29,7 +29,7 @@ regra(dor_abdominal_ou_queixas_abdominais, laranja,
 	[dor_intensa]).
 
 regra(dor_abdominal_ou_queixas_abdominais, laranja,
-	[alteracao_temperatura]).
+	[alteracao_temperatura_maior_40]).
 
 
 % AMARELO

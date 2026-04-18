@@ -12,7 +12,7 @@ regra(dor_toracica, vermelho,
 	[dor_precordial]).
 
 regra(dor_toracica, vermelho,
-	[sinais_de_choque_fc_150]).
+	[sinais_de_choque]).
 
 regra(dor_toracica, vermelho,
 	[trauma_penetrante]).

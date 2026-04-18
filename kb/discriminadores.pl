@@ -20,21 +20,21 @@ discriminador(disuria, pediatria,
     "Apresenta disúria (dor/dificuldade ao urinar)?").
 
 discriminador(dor_intensa, adulto,
-    "Dor intolerável (8 a 10/10), frequentemente descrita como a pior já sentida. Pode estar associada com abscesso ou flutuação.",
+    "Dor intolerável (8 a 10/10), frequentemente descrita como a pior já sentida.",
     "A dor é intensa (8 a 10 em 10)?").
 discriminador(dor_intensa, pediatria,
     "Dor abdominal, torácica, em membros, lombar, sem resposta a analgésico (7 a 10). Em crianças/bebês: choro contínuo e inconsolável, taquicárdicos.",
     "A criança apresenta dor intensa (7 a 10) ou choro contínuo inconsolável?").
 
 discriminador(dor_leve, adulto,
-    "Dor leve (1 a 4/10). Pode estar associada com abscesso ou flutuação.",
+    "Dor leve (1 a 4/10).",
     "A dor é leve (1 a 4 em 10)?").
 discriminador(dor_leve, pediatria,
     "Dor leve (1 a 3)",
     "A dor é leve (1 a 3 em 10)?").
 
 discriminador(dor_moderada, adulto,
-    "Dor suportável, porém intensa (5 a 7/10). Pode estar associada com abscesso ou flutuação.",
+    "Dor suportável, porém intensa (5 a 7/10).",
     "A dor é moderada (5 a 7 em 10)?").
 discriminador(dor_moderada, pediatria,
     "Dor intensa, porém suportável (4 a 6). Em crianças/bebês: choram intermitentemente e são consoláveis.",
@@ -98,7 +98,7 @@ discriminador(abscesso_sem_febre, adulto,
     "Sem flutuação e sem febre",
     "O paciente apresenta abscesso sem febre?").
 
-discriminador(alteracao_temperatura, adulto,
+discriminador(alteracao_temperatura_maior_40, adulto,
     "Temperatura < 35 °C ou > 40 °C",
     "Há alteração de temperatura (< 35 °C ou > 40 °C)?").
 
@@ -119,7 +119,7 @@ discriminador(erupcoes_secretantes_bolhosas_com_prurido, adulto,
     "O paciente tem erupções secretantes ou bolhosas em mais de 10% do corpo com prurido?").
 
 discriminador(estado_mental_alterado, adulto,
-    "Desorientação no tempo/espaço, não reconhecimento de pessoas; incapacidade de cumprir ordens simples; pensamento desconexo.",
+    "Alteração mental grave: desorientação no tempo/espaço, não reconhecimento de pessoas, incapacidade de cumprir ordens simples ou pensamento desconexo.",
     "O paciente apresenta estado mental alterado?").
 
 discriminador(estridor_laringeo_ou_dificuldade_falar, adulto,
@@ -274,7 +274,7 @@ discriminador(rigidez_nuca_hipertonicidade, adulto,
     "Incapacidade de flexionar a cabeça devido à rigidez muscular e resistência à movimentação passiva",
     "O paciente apresenta rigidez de nuca ou hipertonicidade?").
 
-discriminador(alteracao_temperatura_35_38_5, adulto,
+discriminador(alteracao_temperatura_maior_38_5, adulto,
     "Temperatura < 35 °C ou > 38,5 °C",
     "Há alteração de temperatura (< 35 °C ou > 38,5 °C)?").
 
@@ -293,10 +293,6 @@ discriminador(sinais_desidratacao, adulto,
 discriminador(vomito_com_sangue_repercussao_hemodinamica, adulto,
     "Grande quantidade de sangue no vômito associada a instabilidade hemodinâmica (PA sistólica < 80 mmHg, FC > 140 bpm ou FC < 40 bpm)",
     "O paciente apresenta vômito com sangue e repercussão hemodinâmica?").
-
-discriminador(sinais_de_choque_fc_150, adulto,
-    "PA sistólica < 80 mmHg, taquicardia (FC >= 150 bpm) ou bradicardia (FC < 40 bpm), palidez acentuada, sudorese, pele fria, pulso fino, perfusão diminuída, irritabilidade, alteração do nível de consciência e oligúria",
-    "O paciente apresenta sinais de choque com FC >= 150 bpm ou FC < 40 bpm?").
 
 discriminador(dor_irradiando_para_dorso, adulto,
     "Dor com irradiação para o dorso",
@@ -434,7 +430,7 @@ discriminador(historia_respiratoria_importante, adulto,
     "Internação hospitalar prévia por problema respiratório",
     "Há história respiratória importante?").
 
-discriminador(alteracao_temperatura_37_5, adulto,
+discriminador(alteracao_temperatura_maior_37_5, adulto,
     "Temperatura < 35 °C ou > 37,5 °C",
     "Há alteração de temperatura (< 35 °C ou > 37,5 °C)?").
 
@@ -467,7 +463,7 @@ discriminador(historia_viagem_recente, adulto,
     "Há história de viagem recente?").
 
 discriminador(alteracao_estado_mental, adulto,
-    "Confusão mental, agitação ou delírio",
+    "Alteração mental moderada: confusão, agitação ou delírio, sem desorganização grave do estado cognitivo",
     "O paciente apresenta alteração do estado mental?").
 
 discriminador(perda_recente_audicao, adulto,
@@ -643,16 +639,12 @@ discriminador(fratura_exposta, adulto,
     "O paciente apresenta fratura exposta?").
 
 discriminador(ferida_com_sangramento_ativo, adulto,
-    "Ferida com sangramento ativo",
+    "Ferida com sangramento ativo de baixa a moderada intensidade, sem sinais de hemorragia grave e sem controle total espontâneo",
     "O paciente apresenta ferida com sangramento ativo?").
 
 discriminador(edema_mais_mais_4, adulto,
     "Edema (++/4+)",
     "O paciente apresenta edema (++/4+)?").
-
-discriminador(alteracoes_respiratorias, adulto,
-    "FR < 10 ou >= 36 irpm, com incapacidade de falar; cianose; letargia e/ou confusão mental; FC < 40 ou >= 150 bpm",
-    "O paciente apresenta alterações respiratórias?").
 
 discriminador(incapacidade_de_andar, adulto,
     "Incapacidade de andar",
@@ -798,10 +790,6 @@ discriminador(lesao_grandes_vasos_ou_hemorragia_grave, adulto,
     "Sangramento visível apesar de compressão, em jato/esguicho, ou lesão de grandes vasos com perda sanguínea importante",
     "Há hemorragia sem controle ou lesão de grandes vasos/hemorragia grave?").
 
-discriminador(saturacao_o2_menor_90_ou_menor_95_com_suplementacao, adulto,
-    "Saturação de O2 < 90% em ar ambiente ou < 95% mesmo com suplementação de O2",
-    "A saturação de O2 está < 90% em ar ambiente ou < 95% com suplementação de O2?").
-
 discriminador(ferimentos_profundos, adulto,
     "Ferimentos profundos",
     "O paciente apresenta ferimentos profundos?").
@@ -853,10 +841,6 @@ discriminador(imunossupressao_conhecida, adulto,
 discriminador(historia_hematologica_importante, adulto,
     "História hematológica importante",
     "Há história hematológica importante?").
-
-discriminador(alteracao_temperatura_37_8, adulto,
-    "Temperatura < 35 °C ou > 37,8 °C",
-    "Há alteração de temperatura (< 35 °C ou > 37,8 °C)?").
 
 discriminador(viagem_recente_area_endemica_menos_7_dias, adulto,
     "Viagem recente para área endêmica em intervalo inferior a 7 dias",

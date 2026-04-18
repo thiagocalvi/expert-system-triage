@@ -54,7 +54,7 @@ regra(mal_estar_geral, amarelo,
 
 % VERDE
 regra(mal_estar_geral, verde,
-	[alteracao_temperatura_37_8]).
+	[alteracao_temperatura_maior_37_5]).
 
 regra(mal_estar_geral, verde,
 	[viagem_recente_area_endemica_menos_7_dias]).

@@ -20,10 +20,6 @@ regra(mordeduras_e_picadas_de_animais, vermelho,
 regra(mordeduras_e_picadas_de_animais, vermelho,
 	[saturacao_o2_menor_85]).
 
-regra(mordeduras_e_picadas_de_animais, vermelho,
-	[saturacao_o2_menor_90_ou_menor_95_com_suplementacao]).
-
-
 % LARANJA
 regra(mordeduras_e_picadas_de_animais, laranja,
 	[alteracao_nivel_consciencia_ecg_9_13]).

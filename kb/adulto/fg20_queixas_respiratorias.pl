@@ -52,7 +52,7 @@ regra(queixas_respiratorias, amarelo,
 	[saturacao_o2_90_94]).
 
 regra(queixas_respiratorias, amarelo,
-	[alteracao_temperatura_37_5]).
+	[alteracao_temperatura_maior_37_5]).
 
 
 % VERDE

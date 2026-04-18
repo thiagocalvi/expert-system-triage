@@ -38,7 +38,7 @@ regra(queixas_urinarias_dor_testicular, amarelo,
 	[disuria_intensa_com_polaciuria_ou_hematuria]).
 
 regra(queixas_urinarias_dor_testicular, amarelo,
-	[alteracao_temperatura_35_38_5]).
+	[alteracao_temperatura_maior_38_5]).
 
 regra(queixas_urinarias_dor_testicular, amarelo,
 	[vomitos_persistentes]).

@@ -9,7 +9,7 @@ regra(dor_cervical, vermelho,
 	[respiracao_inadequada]).
 
 regra(dor_cervical, vermelho,
-	[sinais_de_choque_fc_150]).
+	[sinais_de_choque]).
 
 regra(dor_cervical, vermelho,
 	[obstrucao_vias_aereas]).
@@ -32,7 +32,7 @@ regra(dor_cervical, laranja,
 	[dor_intensa]).
 
 regra(dor_cervical, laranja,
-	[alteracao_temperatura]).
+	[alteracao_temperatura_maior_40]).
 
 regra(dor_cervical, laranja,
 	[trauma_direto_pescoco]).

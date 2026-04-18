@@ -47,7 +47,7 @@ regra(desmaio_tontura_vertigem, laranja,
 	[alteracao_nivel_consciencia_ecg_9_13]).
 
 regra(desmaio_tontura_vertigem, laranja,
-	[alteracao_temperatura]).
+	[alteracao_temperatura_maior_40]).
 
 regra(desmaio_tontura_vertigem, laranja,
 	[historia_importante_alergia]).

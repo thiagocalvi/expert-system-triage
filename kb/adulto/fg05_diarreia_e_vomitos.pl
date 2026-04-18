@@ -37,7 +37,7 @@ regra(diarreia_vomitos, laranja,
 
 % AMARELO
 regra(diarreia_vomitos, amarelo,
-	[alteracao_temperatura_35_38_5]).
+	[alteracao_temperatura_maior_38_5]).
 
 regra(diarreia_vomitos, amarelo,
 	[fezes_enegrecidas_ou_geleia_de_groselha]).

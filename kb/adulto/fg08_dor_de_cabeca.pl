@@ -18,7 +18,7 @@ regra(dor_de_cabeca, vermelho,
 	[sinais_de_meningismo]).
 
 regra(dor_de_cabeca, vermelho,
-	[sinais_de_choque_fc_150]).
+	[sinais_de_choque]).
 
 regra(dor_de_cabeca, vermelho,
 	[cefaleia_intensa_inicio_subito]).
@@ -40,7 +40,7 @@ regra(dor_de_cabeca, amarelo,
 	[dor_moderada]).
 
 regra(dor_de_cabeca, amarelo,
-	[alteracao_temperatura_35_38_5]).
+	[alteracao_temperatura_maior_38_5]).
 
 regra(dor_de_cabeca, amarelo,
 	[nauseas_vomitos_associados_dor]).
