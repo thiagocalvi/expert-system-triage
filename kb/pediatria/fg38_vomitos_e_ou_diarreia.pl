@@ -51,6 +51,6 @@ regra(vomitos_diarreia, verde,
     [diarreia_sanguinolenta_prolongada]).
 
 
-% 🔵 AZUL
+% AZUL
 regra(vomitos_diarreia, azul,
     [diarreia_prolongada]).

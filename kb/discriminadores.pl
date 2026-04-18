@@ -27,8 +27,8 @@ discriminador(dor_intensa, pediatria,
     "A criança apresenta dor intensa (7 a 10) ou choro contínuo inconsolável?").
 
 discriminador(dor_leve, adulto,
-    "Dor leve (1 a 5/10). Pode estar associada com abscesso ou flutuação.",
-    "A dor é leve (1 a 5 em 10)?").
+    "Dor leve (1 a 4/10). Pode estar associada com abscesso ou flutuação.",
+    "A dor é leve (1 a 4 em 10)?").
 discriminador(dor_leve, pediatria,
     "Dor leve (1 a 3)",
     "A dor é leve (1 a 3 em 10)?").
@@ -69,7 +69,7 @@ discriminador(placas_eritematosas_inicio_subito, pediatria,
     "Apresenta placas eritematosas de início súbito?").
 
 discriminador(sinais_de_choque, adulto,
-    "Hipotensão (PA < 80 mmHg), taquicardia (>= 150) ou bradicardia (< 40), palidez acentuada, sudorese, pele fria, pulso fino, perfusão diminuída, irritabilidade, alteração do nível de consciência e oligúria.",
+    "Hipotensão (PA < 80 mmHg), taquicardia (>= 140) ou bradicardia (< 40), palidez acentuada, sudorese, pele fria, pulso fino, perfusão diminuída, irritabilidade, alteração do nível de consciência e oligúria.",
     "O paciente apresenta sinais de choque?").
 discriminador(sinais_de_choque, pediatria,
     "Taquicardia; palidez acentuada; pele fria; sudorese; pulso fino; perfusão diminuída; letargia; taquipneia; irritabilidade; oligúria.",
@@ -174,9 +174,9 @@ discriminador(saturacao_o2_90_94, adulto,
     "Saturação de O2 entre 90% e 94%",
     "A saturação de O2 está entre 90% e 94%?").
 
-discriminador(saturacao_o2_maior_igual_96, adulto,
-    "Saturação de O2 >= 96%",
-    "A saturação de O2 é maior ou igual a 96%?").
+discriminador(saturacao_o2_maior_igual_95, adulto,
+    "Saturação de O2 >= 95%",
+    "A saturação de O2 é maior ou igual a 95%?").
 
 discriminador(saturacao_o2_menor_85, adulto,
     "Saturação de O2 < 85%",
@@ -185,6 +185,166 @@ discriminador(saturacao_o2_menor_85, adulto,
 discriminador(sinais_neurologicos_focais, adulto,
     "Paresia, parestesia, disfasia/afasia, ataxia, distúrbio do equilíbrio",
     "O paciente apresenta sinais neurológicos focais?").
+
+discriminador(alteracoes_glicemicas, adulto,
+    "Glicemia > 500 ou < 50 mg/dL",
+    "O paciente apresenta alterações glicêmicas graves (glicemia > 500 ou < 50 mg/dL)?").
+
+discriminador(convulsao_em_atividade, adulto,
+    "Contrações musculares involuntárias de todo o corpo ou de parte dele",
+    "O paciente apresenta convulsão ativa?").
+
+discriminador(crise_convulsiva_recorrente_reentrante, adulto,
+    "Crises repetidas sem recuperação completa da consciência entre elas",
+    "O paciente apresenta crise convulsiva recorrente (reentrante)?").
+
+discriminador(historia_epilepsia_em_tratamento, adulto,
+    "Paciente com diagnóstico de epilepsia em uso de anticonvulsivantes",
+    "Há história de epilepsia em tratamento (uso de anticonvulsivantes)?").
+
+discriminador(nenhum_determinante_convulsoes, adulto,
+    "Nenhum dos determinantes anteriores",
+    "Nenhum dos determinantes anteriores está presente?").
+
+discriminador(obstrucao_vias_aereas, adulto,
+    "Início súbito de grave dificuldade respiratória, sem sintomas respiratórios prévios, com secreção, sangue, corpo estranho, edema de lábios ou língua, ou obstrução/deslocamento de traqueostomia",
+    "O paciente apresenta comprometimento/obstrução de vias aéreas?").
+
+discriminador(periodo_pos_comicial, adulto,
+    "Período após a crise com possível rebaixamento de consciência, confusão, desorientação ou letargia",
+    "O paciente está em período pós-comicial?").
+
+discriminador(crise_convulsiva_menos_12h_paciente_alerta, adulto,
+    "Relato de episódio convulsivo recente (menos de 12 horas), sem alteração atual de consciência",
+    "Houve crise convulsiva há menos de 12 horas com paciente alerta?").
+
+discriminador(sinais_de_meningismo, adulto,
+    "Rigidez de nuca e sinais radiculares (Lasègue e Kernig)",
+    "O paciente apresenta sinais de meningismo?").
+
+discriminador(alteracao_nivel_consciencia_ecg_9_13, adulto,
+    "Escala de Coma de Glasgow entre 9 e 13",
+    "O paciente apresenta alteração do nível de consciência (ECG 9-13)?").
+
+discriminador(alteracao_nivel_consciencia_ecg_menor_9, adulto,
+    "Escala de Coma de Glasgow menor que 9",
+    "O paciente apresenta alteração grave do nível de consciência (ECG < 9)?").
+
+discriminador(cefaleia_intensa_inicio_subito, adulto,
+    "Cefaleia intensa de início súbito (8-10/10), descrita como a pior dor de cabeça da vida",
+    "O paciente apresenta cefaleia intensa de início súbito (8-10/10)?").
+
+discriminador(dispneia_aguda, adulto,
+    "Dificuldade respiratória de início súbito",
+    "O paciente apresenta dispneia aguda?").
+
+discriminador(disturbio_subito_equilibrio, adulto,
+    "Distúrbio súbito do equilíbrio associado a náuseas e vômitos",
+    "O paciente apresenta distúrbio súbito do equilíbrio com náuseas e vômitos?").
+
+discriminador(dor_toracica_tipica, adulto,
+    "Dor intensa em aperto ou peso no centro do peito, irradiando para braço esquerdo ou pescoço, podendo associar-se a sudorese, náuseas e epigastralgia",
+    "O paciente apresenta dor torácica típica?").
+
+discriminador(historia_importante_alergia, adulto,
+    "Relato de reação alérgica significativa prévia",
+    "Há história importante de alergia?").
+
+discriminador(parestesias_bilaterais_ou_migratorias, adulto,
+    "Sensações cutâneas subjetivas (frio, calor, formigamento, pressão) percebidas espontaneamente, bilaterais ou migratórias",
+    "O paciente apresenta parestesias bilaterais ou migratórias?").
+
+discriminador(pos_comicial_sem_rebaixamento_grave, adulto,
+    "Período após crise convulsiva com possível confusão, sem rebaixamento grave de consciência",
+    "O paciente está em pós-comicial sem rebaixamento grave?").
+
+discriminador(pos_comicial_com_rebaixamento, adulto,
+    "Período após crise convulsiva com perda de consciência, confusão importante ou letargia",
+    "O paciente está em pós-comicial com rebaixamento?").
+
+discriminador(primeira_crise_convulsiva, adulto,
+    "Primeiro episódio convulsivo relatado",
+    "Trata-se de primeira crise convulsiva?").
+
+discriminador(pulso_filiforme, adulto,
+    "Pulso arterial muito fraco",
+    "O paciente apresenta pulso filiforme?").
+
+discriminador(rigidez_nuca_hipertonicidade, adulto,
+    "Incapacidade de flexionar a cabeça devido à rigidez muscular e resistência à movimentação passiva",
+    "O paciente apresenta rigidez de nuca ou hipertonicidade?").
+
+discriminador(alteracao_temperatura_35_38_5, adulto,
+    "Temperatura < 35 °C ou > 38,5 °C",
+    "Há alteração de temperatura (< 35 °C ou > 38,5 °C)?").
+
+discriminador(evento_inicio_menos_6h, adulto,
+    "Evento com início há menos de 6 horas",
+    "O evento teve início há menos de 6 horas?").
+
+discriminador(fezes_enegrecidas_ou_geleia_de_groselha, adulto,
+    "Presença de sangue nas fezes (escurecido ou com coágulos), com aspecto enegrecido ou em geleia de groselha",
+    "O paciente apresenta fezes enegrecidas ou em geleia de groselha?").
+
+discriminador(sinais_desidratacao, adulto,
+    "Diminuição da diurese, diminuição da turgidez da pele, fraqueza, tontura, boca e língua secas",
+    "O paciente apresenta sinais de desidratação?").
+
+discriminador(vomito_com_sangue_repercussao_hemodinamica, adulto,
+    "Grande quantidade de sangue no vômito associada a instabilidade hemodinâmica (PA sistólica < 80 mmHg, FC > 140 bpm ou FC < 40 bpm)",
+    "O paciente apresenta vômito com sangue e repercussão hemodinâmica?").
+
+discriminador(sinais_de_choque_fc_150, adulto,
+    "PA sistólica < 80 mmHg, taquicardia (FC >= 150 bpm) ou bradicardia (FC < 40 bpm), palidez acentuada, sudorese, pele fria, pulso fino, perfusão diminuída, irritabilidade, alteração do nível de consciência e oligúria",
+    "O paciente apresenta sinais de choque com FC >= 150 bpm ou FC < 40 bpm?").
+
+discriminador(dor_irradiando_para_dorso, adulto,
+    "Dor com irradiação para o dorso",
+    "A dor irradia para o dorso?").
+
+discriminador(dor_epigastrica, adulto,
+    "Dor localizada em região epigástrica",
+    "O paciente apresenta dor epigástrica?").
+
+discriminador(historia_vomito_com_sangue_menos_6h, adulto,
+    "História de vômito com sangue nas últimas 6 horas",
+    "Há história de vômito com sangue há menos de 6 horas?").
+
+discriminador(sangramento_vaginal, adulto,
+    "Sangramento vaginal",
+    "Há sangramento vaginal?").
+
+discriminador(possivel_gravidez, adulto,
+    "Possibilidade de gestação atual",
+    "Há possibilidade de gravidez?").
+
+discriminador(irradiacao_para_ombro, adulto,
+    "Dor com irradiação para ombro",
+    "A dor irradia para o ombro?").
+
+discriminador(manifestacoes_hemorragicas, adulto,
+    "Presença de petéquias, equimoses ou sangramentos espontâneos",
+    "O paciente apresenta manifestações hemorrágicas?").
+
+discriminador(evento_recente_menos_7_dias, adulto,
+    "Início dos sintomas há menos de 7 dias",
+    "O evento é recente (início há menos de 7 dias)?").
+
+discriminador(trauma_direto_pescoco, adulto,
+    "Traumatismo direto em garganta, nuca ou região supraclavicular",
+    "Houve trauma direto no pescoço?").
+
+discriminador(perda_aguda_completa_visao, adulto,
+    "Perda aguda completa da visão",
+    "O paciente apresenta perda aguda completa da visão?").
+
+discriminador(nauseas_vomitos_associados_dor, adulto,
+    "Náuseas e vômitos associados à dor",
+    "O paciente apresenta náuseas e vômitos associados à dor?").
+
+discriminador(diminuicao_recente_visao, adulto,
+    "Diminuição recente da visão",
+    "O paciente apresenta diminuição recente da visão?").
 
 discriminador(toxemiado_prostrado_ou_febril, adulto,
     "Cianótico, taquicárdico, dispneico",

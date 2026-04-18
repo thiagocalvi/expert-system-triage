@@ -63,7 +63,7 @@ regra(alteracoes_consciencia, amarelo,
 
 % VERDE
 regra(alteracoes_consciencia, verde,
-    [saturacao_o2_maior_igual_96]).
+    [saturacao_o2_maior_igual_95]).
 
 regra(alteracoes_consciencia, verde,
     [vomitos_esporadicos]).
