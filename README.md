@@ -5,3 +5,7 @@
 
 ---
 
+Comando para executar:
+```bash
+swipl -s main.pl -g iniciar -t halt
+```
