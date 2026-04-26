@@ -1,6 +1,5 @@
-% =========================
 % Utilitários de Teste
-% =========================
+
 % Helpers de setup/teardown usados pelos demais módulos de teste.
 
 :- module(test_utils, [

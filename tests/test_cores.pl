@@ -1,6 +1,4 @@
-% =========================
 % Testes: Probabilidades / Prioridades (kb/cores.pl)
-% =========================
 
 :- use_module(library(plunit)).
 

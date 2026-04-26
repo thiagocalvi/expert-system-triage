@@ -1,6 +1,4 @@
-% =========================
 % Testes: CRUD (crud.pl)
-% =========================
 
 :- use_module(library(plunit)).
 

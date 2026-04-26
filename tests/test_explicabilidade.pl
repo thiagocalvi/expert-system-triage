@@ -1,6 +1,4 @@
-% =========================
 % Testes: Explicabilidade (explicabilidade.pl)
-% =========================
 
 :- use_module(library(plunit)).
 

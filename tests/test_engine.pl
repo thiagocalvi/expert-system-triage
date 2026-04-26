@@ -1,6 +1,4 @@
-% =========================
 % Testes: Motor de Inferência (engine.pl)
-% =========================
 
 :- use_module(library(plunit)).
 
