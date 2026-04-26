@@ -7,7 +7,7 @@
 :- use_module(library(plunit)).
 
 % Garante que os testes não esperem input (evita travamentos em "choicepoint")
-:- set_test_options([interactive(false)]).
+set_test_options([occurs_in_goals(false)]).
 
 % Carrega todos os módulos de teste
 :- consult('test_engine.pl').
