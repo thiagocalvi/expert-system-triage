@@ -10,7 +10,7 @@
 
 Este projeto é um **Sistema Especialista** desenvolvido em **Prolog**, com o objetivo de simular a triagem hospitalar de pacientes. O motor de inferência utiliza o **Protocolo de Manchester** e seus diversos fluxogramas médicos (divididos em populações adulta e pediátrica) para determinar o nível de urgência do atendimento de forma determinística. 
 
-O sistema conta com gerencimento de pacientes no formato CRUD em memória, faz perguntas ativamente ao usuário com base no fluxo de decisão e apresenta um módulo de **Explicabilidade (XAI)** que detalha as regras ativadas e o raciocínio utilizado para atribuir certa prioridade de atendimento.
+O sistema conta com gerencimento de pacientes no formato CRUD em memória, faz perguntas ativamente ao usuário com base no fluxo de decisão e apresenta um módulo de **Explicabilidade** que detalha as regras ativadas e o raciocínio utilizado para atribuir certa prioridade de atendimento.
 
 ---
 
