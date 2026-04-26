@@ -6,7 +6,7 @@
 
 ---
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto é um **Sistema Especialista** desenvolvido em **Prolog**, com o objetivo de simular a triagem hospitalar de pacientes. O motor de inferência utiliza o **Protocolo de Manchester** e seus diversos fluxogramas médicos (divididos em populações adulta e pediátrica) para determinar o nível de urgência do atendimento de forma determinística. 
 
@@ -14,16 +14,14 @@ O sistema conta com gerencimento de pacientes no formato CRUD em memória, faz p
 
 ---
 
-## 👥 Membros da Equipe
+## Membros da Equipe
 
-- [Seu Nome / Membro 1] (RA: [Número])
-- [Nome do Membro 2] (RA: [Número])
-- [Nome do Membro 3] (RA: [Número])
-*(Substitua pelos dados dos membros da equipe)*
+- [Matheus Foltran Consonni](https://github.com/matheusfoltran)
+- [Thiago Henrique Calvi](https://github.com/thiagocalvi)
 
 ---
 
-## 🚀 Como Clonar o Repositório
+## Como Clonar o Repositório
 
 Para obter uma cópia do código na sua máquina local, abra o terminal e execute o seguinte comando:
 
@@ -34,7 +32,7 @@ cd expert-system-triage
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 Para rodar este projeto, é necessário possuir o interpretador **SWI-Prolog** instalado em seu sistema.
 
@@ -52,7 +50,7 @@ Para rodar este projeto, é necessário possuir o interpretador **SWI-Prolog** i
 
 ---
 
-## ▶️ Como Executar
+## Como Executar
 
 No terminal, certifique-se de que você está na raiz do diretório onde clonou o projeto. Em seguida, digite:
 
